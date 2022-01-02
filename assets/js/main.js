@@ -1014,17 +1014,17 @@ const app = {
         const themesBg = $$(".theme-item");
         Array.from(themesBg).forEach(function (themeBg, index) {
             var bgImage = [
-                "./assets/img/back-ground-1.jpg",
-                "./assets/img/back-ground-2.jpg",
-                "./assets/img/back-ground-3.jpg",
-                "./assets/img/back-ground-4.jpg",
-                "./assets/img/back-ground-5.jpg",
+                "../../assets/img/back-ground-1.jpg",
+                "../../assets/img/back-ground-2.jpg",
+                "../../assets/img/back-ground-3.jpg",
+                "../../assets/img/back-ground-4.jpg",
+                "../../assets/img/back-ground-5.jpg",
             ];
             var bgColorA = ["background1", "background2", "background3", "background4", "background5"];
             var bgTheme = bgImage[index];
             var bgColor = bgColorA[index];
             themeBg.onclick = function () {
-                $(".app").style.backgroundImage = `url('${bgTheme}')`;
+                $(".app").style.backgroundImage = `url("${bgTheme}")`;
                 const newBody1 = $(`body.${bgColorA[index + 1]}`);
                 if (newBody1) {
                     newBody1.classList.remove(`${bgColorA[index + 1]}`);
