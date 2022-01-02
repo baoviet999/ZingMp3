@@ -1024,7 +1024,7 @@ const app = {
             var bgTheme = bgImage[index];
             var bgColor = bgColorA[index];
             themeBg.onclick = function () {
-                $(".app").style.backgroundImage = `url(${bgTheme})`;
+                $(".app").style.backgroundImage = `url('${bgTheme}')`;
                 const newBody1 = $(`body.${bgColorA[index + 1]}`);
                 if (newBody1) {
                     newBody1.classList.remove(`${bgColorA[index + 1]}`);
