@@ -1,0 +1,86 @@
+body.background1{
+    --text-color : #32323D;
+    --text-color-blur : #32323D;
+    --text-color-opacity :rgba(0,0,0,0.5);
+    --primary-color : #409abc;
+    --secondary-color : #409abc;
+    --header-search : #fffffe;
+    --header-history : #fffffe;
+    --primary-bg : rgba(255,255,255,0.5);
+    --second-bg :rgba(0,0,0,0.05);
+    --header-bg : #e7dfdd;
+    --footer-bg : #d0ccc5;
+    --tab-active : hsla(0,0%,100%,0.3);
+    --theme : #FFFFFE;
+    --sidebar-color :rgba(0,0,0,0.05);
+    --white-color : #fff;
+}
+body.background2{
+    --text-color : #32323D;
+    --text-color-blur : #32323D;
+    --text-color-opacity :rgba(0,0,0,0.5);
+    --primary-color : #ea7aa0;
+    --secondary-color : #ea7aa0;
+    --header-search : #fffffe;
+    --header-history : #fffffe;
+    --primary-bg : rgba(255,255,255,0.5);
+    --second-bg :rgba(0,0,0,0.05);
+    --header-bg : #f9dbdb;
+    --footer-bg : #f9c6c5;
+    --tab-active : hsla(0,0%,100%,0.3);
+    --theme : #FFFFFE;
+    --sidebar-color :hsla(0,0%,100%,0.3);
+    --white-color : #fff
+}
+body.background3{
+    --text-color : #32323D;
+    --text-color-blur : #32323D;
+    --text-color-opacity :rgba(0,0,0,0.5);
+    --primary-color : #346875;
+    --secondary-color : #346875;
+    --header-search : #fffffe;
+    --header-history : #fffffe;
+    --primary-bg : rgba(255,255,255,0.5);
+    --second-bg :rgba(0,0,0,0.05);
+    --header-bg : #bab8c3;
+    --footer-bg : #c6c4d1;
+    --tab-active : hsla(0,0%,100%,0.3);
+    --theme : #FFFFFE;
+    --sidebar-color :rgba(0,0,0,0.05);
+    --white-color : #fff
+}
+body.background4{
+    --text-color : #32323D;
+    --text-color-blur : #32323D;
+    --text-color-opacity :rgba(0,0,0,0.5);
+    --primary-color : #6b3483;
+    --secondary-color : #6b3483;
+    --header-search : #fffffe;
+    --header-history : #fffffe;
+    --primary-bg : rgba(255,255,255,0.5);
+    --second-bg :rgba(0,0,0,0.05);
+    --header-bg : #fff;
+    --footer-bg : #fff;
+    --tab-active : hsla(0,0%,100%,0.3);
+    --theme : #FFFFFE;
+    --sidebar-color :rgba(0,0,0,0.05);
+    --white-color : #fff
+}
+body.background5{
+    --text-color : #fff;
+    --text-color-blur : #dadada;
+    --text-color-opacity :hsla(0,0%,100%,0.5) ;
+    --primary-color : #fff;
+    --secondary-color : #3460f5;
+    --header-search : #192f60;
+    --header-history : #192f60;
+    --primary-bg : rgba(255,255,255,0.5);
+    --second-bg :hsla(0,0%,100%,0.1);
+    --header-bg : #061D4F;
+    --footer-bg : #0D1932;
+    --color-white : #fff;
+    --tab-active : hsla(0,0%,100%,0.3);
+    --theme :#192f60;
+    --sidebar-color :hsla(0,0%,100%,0.05);
+    --white-color : #fff
+}
