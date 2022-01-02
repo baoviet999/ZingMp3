@@ -1015,8 +1015,8 @@ const app = {
         Array.from(themesBg).forEach(function (themeBg, index) {
             var bgImage = [
                 "../../assets/img/back-ground-1.jpg",
-                "../../assets/img/back-ground-2.jpg",
-                "../../assets/img/back-ground-3.jpg",
+                "/assets/img/back-ground-2.jpg",
+                "./assets/img/back-ground-3.jpg",
                 "../../assets/img/back-ground-4.jpg",
                 "../../assets/img/back-ground-5.jpg",
             ];
